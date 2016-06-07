@@ -1,9 +1,10 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"github/jperarm1971/utilcadenas"
+)
 
 func main() {
-
-	fmt.Printf("Hola, mundo.\n")
-
+	fmt.Printf(utilcadenas.Reverso("!oG ,aloH¡"))
 }
